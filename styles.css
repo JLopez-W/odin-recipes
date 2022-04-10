@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(240, 231, 217);
+    color: rgb(186, 96, 18);
+}
+
+h1, h2, .recipe-cap, .fig-link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-round {
+    max-width: auto;
+    max-height: 200px;
+    border-radius: 50%;
+}
+.recipe-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.recipe-button figcaption {
+    max-width: 200px;
+}
+
+.recipe-button a{
+    color: rgb(186, 96, 18);
+    text-align: center;
+    text-decoration: none;
+}
+
+#fig1-link a:hover {
+    color: rgb(160, 82, 45);
+}
+
+#fig2-link a:hover {
+    color: rgb(233, 110, 22);
+}
+
+#fig3-link a:hover {
+    color: rgba(255, 0, 0, 0.642);
+}
+
+a:visited {
+    color: hsl(33, 56%, 66%);
+}
+
+
+.img-square {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5%;
+}
+.recipe-fig {
+    max-width: 300px;
+    display: block;
+    text-align: center;
+}
