@@ -1,10 +1,15 @@
 body {
     background-color: rgb(240, 231, 217);
     color: rgb(186, 96, 18);
+    margin: 25px;
 }
 
 h1, h2, .recipe-cap, .fig-link {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 p, li {
@@ -12,8 +17,8 @@ p, li {
 }
 
 .img-round {
-    max-width: auto;
-    max-height: 200px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
 }
 .recipe-button {
@@ -48,7 +53,6 @@ a:visited {
     color: hsl(33, 56%, 66%);
 }
 
-
 .img-square {
     max-width: 300px;
     max-height: 300px;
@@ -58,4 +62,5 @@ a:visited {
     max-width: 300px;
     display: block;
     text-align: center;
+    margin-bottom: 40px;
 }
